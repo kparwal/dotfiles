@@ -11,7 +11,6 @@ let g:platform = GetPlatform()
 
 " To enable the saving and restoring of screen positions.
 let g:screen_size_restore_pos = 1
-
 "" ============================================================================
 ""                            Editing and Moving
 "" ============================================================================
@@ -23,7 +22,8 @@ set backspace=indent,eol,start
 " Backup directory for swp files
 set noswapfile
 set directory=""
-
+set mouse=a
+autocmd BufWritePre *.py :%s/\s\+$//e
 " Faster terminal scrolling?  TBD
 "set ttyfast
 

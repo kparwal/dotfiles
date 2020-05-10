@@ -45,6 +45,9 @@ Plug 'tpope/vim-unimpaired'                              " Pairs of keyboard map
 Plug 'tpope/vim-vinegar'                                 " netrw improvement
 Plug 'vim-scripts/DrawIt'                                " Create ASCII drawings in Vim
 Plug 'vim-scripts/Tabmerge'                              " Merge tabs into splits
+Plug 'morhetz/gruvbox'
+Plug 'scrooloose/NERDTree'
+Plug 'scrooloose/NERDCommenter'
 
 if has('nvim')
     Plug 'haifengkao/nfasd'                                " Recent file autocompletion
